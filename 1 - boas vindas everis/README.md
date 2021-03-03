@@ -1,8 +1,8 @@
-#Boas-vindas ao Bootcamp everis Kotlin Developer
+# Boas-vindas ao Bootcamp everis Kotlin Developer
 
 A Everis é uma das maiores empresas de TI do mundo.
 
-###Aqui vão alguns dados da empresa
+### Aqui vão alguns dados da empresa
 
 - Presente em 18 países
 - Mais de 24.500 profissionais
