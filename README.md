@@ -12,35 +12,32 @@ de recursos equivalentes.
 
 | DIO | <-> | Github |
 | :---: | :---: | :---:|
-| Certificados | <-> | Milestones
-| Bootcamp | <-> | Projets |
+| Bootcamp | <-> | Milestones |
 | Cursos | <-> | Issues |
 | Aulas | <-> | Branchs
 | Nível | <-> | Labels
 
-- Cada `Conclusão do bootcamp` será um `milestone`
-- Cada `Bootcamp` no será um `Project`  
-- Cada `Curso` será uma `Issue`  
-- Cada `Aula` serão `Branchs`
-- Cada `Nível` serão `Labels` (basico, intermediario e avancado)
+- Cada `Bootcamp` é um `Milestone`  
+- Cada `Curso` é um `Issue`  
+- Cada `Aula` é um `Branch`
+- Cada `Nível` é um `Label` (basico, intermediario e avancado)
 
 #### Como usar este template?
 
-1. Ao se inscrever em um Bootcamp na DIO, crie um Projeto com o nome e descrição.
-1. Crie um milestone com o prefixo `Conclusão Bootcamp - ` e o nome do Bootcamp 
+1. Ao se inscrever em um Bootcamp na DIO, crie um milestone com o prefixo `Bootcamp - ` e o nome do Bootcamp 
 e o prazo de finalização.
 Ex: 
-   >Conclusão Bootcamp - everis Kotlin Developer
+   >Bootcamp - everis Kotlin Developer
     
-1. Crie Issues para cada curso do Bootcamp, relacione `labels`, `project` e `milestone`
-1. Para cada aula, crie um `Branch` com o nome da aula e faça seus `commits` e `pushs`
-1. Após concluir o curso, faça um `Pull Request (PR)`
-1. Agora edite a `issue` do curso linkando com o seu `PR` e finalmente `merge`
+1. para cada curso, crie um `issue` e relacione `label` e `milestone`
+1. Para cada aula, crie um `branch` com o nome da aula e faça seus `commits` e `pushs`
+1. Após concluir o curso, faça um `pull request (PR)` e link com o `issue` do curso
 
 #### O que acontece agora?
-- Sua `issue` é fechada por conta da conclusão do `PR`
-- Sua `milestone` é atualizada com o status dessa `issue` concluída
-- Seu `project` é atualizado, e este curso é movido para a coluna `concluído`
+- Seu `PR` será fechado automaticamente (merge automático)
+- Seu `branch` será integrado ao `main` e então excluído
+- Seu `issue` é fechada por conta da conclusão do `PR` linkado
+- Seu `milestone` é atualizado com o status desse `issue` concluído
 
 > `Dica` Documente sua evolução nos comentários das Issues e PR's.
 
