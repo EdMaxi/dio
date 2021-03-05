@@ -12,23 +12,17 @@ os códigos fontes, a documentação e tudo que é útil para um programador pro
 
 ## Índice
 
----
-
 - [Objetivo](#objetivo)
 - [DIO e Github](#dio-e-github)
 - [Como usar este template](#como-usar-este-template)
-- [Clonando o repositório e trabalhando na sua IDE](#clonando-o-repositório-e-trabalhando-na-sua-ide)
+- [Clonando o repositório e trabalhando na sua IDE](#Clonando-o-repositório-e-trabalhando-na-sua-IDE)
 - [Conclusão](#conclusão)
 
-### Objetivo
-
----
+## Objetivo
 
 Concluir os Cursos e Bootcamps colocando em prática o uso do Github `like a pro`
 
-### DIO e Github
-
----
+## DIO e Github
 
 Aqui estão as definições dos recursos de cada plataforma e como eles se relacionam.
 
@@ -44,10 +38,7 @@ Aqui estão as definições dos recursos de cada plataforma e como eles se relac
 - Cada `Aula` é um `Branch`
 - Cada `Nível` é um `Label`
 
-
----
-
-### Como usar este template
+## Como usar este template
 
 1. Faça um _Fork_ deste repositório, configure-o com as opções abaixo:
     * Em **Settings > Options**, marque estas opções:
@@ -65,9 +56,7 @@ Aqui estão as definições dos recursos de cada plataforma e como eles se relac
 
 1. Para cada curso, crie um `issue` e relacione `label` e `milestone`
 
-### Clonando o repositório e trabalhando na sua IDE
-
----
+## Clonando o repositório e trabalhando na sua IDE
 
 1. Clone este repo:
    `git clone https://github.com/<USERNAME>/dio-template.git`
@@ -75,9 +64,8 @@ Aqui estão as definições dos recursos de cada plataforma e como eles se relac
 1. Para cada aula, crie um `branch` com o nome da aula e faça seus `commits` e `pushs`
 1. Após concluir um curso, faça um `pull request (PR)` e relacione com o `issue` do curso
 
-### Conclusão
+## Conclusão
 
----
 O status do seu bootcamp (milestone) será atualizado a cada vez que você concluir um curso.
 E sua missão é completar todos os cursos para completar os seus estudos.
 
@@ -91,7 +79,6 @@ E sua missão é completar todos os cursos para completar os seus estudos.
 
 ![parabéns](https://media.giphy.com/media/xT0xezQGU5xCDJuCPe/giphy.gif)
 
-### Bootcamp Status
+## Bootcamp Status
 
----
 ![GitHub milestone](https://img.shields.io/github/milestones/progress/edMaxi/dio/1?style=for-the-badge)
